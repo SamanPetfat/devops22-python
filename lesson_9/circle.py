@@ -1,5 +1,4 @@
 from math import pi
-from turtle import circle, color
 
 class Circle:
     def __init__(self,radie):
