@@ -14,14 +14,18 @@ class square:
 
     def area_and_circum(side1,side2):
         return float(side1 **2),float(side2 *4)
+def main()
 
-area1= square.area_and_circum(side1=2,side2=2)
+    area1= square.area_and_circum(side1=2,side2=2)
 
-area2= square.area_and_circum(side1=3.5, side2=3.5)
+    area2= square.area_and_circum(side1=3.5, side2=3.5)
 
-print(
+    print(
     
-    f"First Area: {area1[0]} and circumference: {area1[1]}\n"
-    f"Second Area: {area2[0]} and circumference: {area2[0]}"
+        f"First Area: {area1[0]} and circumference: {area1[1]}\n"
+        f"Second Area: {area2[0]} and circumference: {area2[0]}"
 
-    )
+        )
+    
+if __name__ == "__main__":
+    main()
