@@ -4,8 +4,8 @@ class Circle:
     def __init__(self,radie):
         self.radie = radie
         self.color = "gray"
-        self.area_circle()
-        self.diameter_circle()
+        self.area = self.area_circle()
+        self.diameter = self.diameter_circle()
         pass
 
     def diameter_circle(self):
